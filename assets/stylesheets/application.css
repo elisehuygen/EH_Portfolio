@@ -1,1 +1,103 @@
-body{font-family:Helvetica,sans-serif;text-align:center;padding:50px 20px 0;background:#f4f4f7;color:#444;margin:0;width:80%;margin:25px auto}h1{font-size:65px;line-height:1.2em;border-bottom:#CCC solid 1px;padding:20px 0}h3,p{margin-top:25px;font-weight:300}h3{font-size:125%}
+body {
+	height: 100%;
+  font-family: 'Khand', sans-serif;
+  background-image: url("http://sleekupload.com/uploads/5/wall4.png");
+}
+h1 {
+  margin: -10px 20px 2% 20px;
+  padding: 0 0 2% 0;
+  font-size: 2em;
+  color: black;
+  width: 95%;
+  border-bottom:2px solid black;
+  text-align: center;
+}
+h2 {
+  margin: -10px;
+  font-size: 5em;
+  text-align: center;
+}
+.portfolio-grid {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+li.opdracht11 {
+  width: 30%;
+
+}
+li.opdracht10 {
+  width: 30%;
+}
+li.opdracht9 {
+  width: 30%;
+}
+li.opdracht8 {
+  width: 30%;
+  border: black solid 2px;
+  width: 30%;
+  padding: 4% 0 5% 0;
+}
+li.opdracht7 {
+  width: 30%;
+}
+li.opdracht6 {
+  width: 30%;
+}
+li.opdracht5 {
+  width:30%;
+}
+li.opdracht4 {
+  width: 30%;
+}
+li.opdracht3 {
+  width: 30%;
+}
+li.opdracht2 {
+  width:30%;
+}
+li.opdracht1 {
+  width: 30%;
+}
+.portfolio-grid li {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	vertical-align: top;
+}
+
+.portfolio-grid li > a,
+.portfolio-grid li > a img {
+    width: 100%;
+	border: none;
+	outline: none;
+	display: block;
+	position: relative;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  padding: 0 0 3% 0;
+}
+
+.portfolio-grid li > a:hover {
+    transform: scale(1.1);
+    z-index: 9999;
+}
+
+
+a.port {
+  text-decoration: none;
+  color:black;
+  font-size: 2em;
+}
+@media only screen and (max-width: 430px) {
+   h2 {
+     font-size: 3em;
+}
+  a.port {
+    font-size: 1em;
+  }
+}
